@@ -13,21 +13,21 @@ html, body {
 }
 
 .bg1 {
-    background-image: url(Assets/Landscape1.jpg);
+    background-image: url("Assets/1873.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
 .bg2 {
-    background-image: url(Assets/2125.jpg);
+    background-image: url("Assets/2125.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
 .bg3 {
-    background-image: url(Assets/3969.jpg);
+    background-image: url("Assets/3969.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -66,4 +66,9 @@ html, body {
     width: 400px;
     word-wrap: break-word;
     white-space: normal;
+}
+
+.page2 {
+    display: flex;
+    justify-content: flex-end;
 }
