@@ -4,15 +4,12 @@ html, body {
     padding: 0;
 }
 
-.section {
+.bg1 {
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     color: white;
-}
 
-.bg1 {
     background-image: url("Assets/1873.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -20,6 +17,12 @@ html, body {
 }
 
 .bg2 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
     background-image: url("Assets/2125.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -27,6 +30,12 @@ html, body {
 }
 
 .bg3 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
     background-image: url("Assets/3969.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -35,21 +44,21 @@ html, body {
 
 .topnav {
     position: relative;
+    height: 50px;
     display: flex;
     justify-content: center;
     text-align: center;
     padding-top: 40px;
-
 }
 
 .topnav a {
     font-size: 18pt;
-    /* font-family: 'Roboto', serif; */
+    font-family: 'Georgia', serif;
     text-align: center;
     color: white;
     text-decoration: none;
     padding: 14px 16px;
-    height: 100vh;
+    height: 50px;
 }
 
 .home-container {
